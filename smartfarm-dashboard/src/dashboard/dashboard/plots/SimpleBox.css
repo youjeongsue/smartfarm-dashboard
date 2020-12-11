@@ -1,0 +1,39 @@
+/* .simple-box-wrapper {
+    margin-bottom: 15px;
+} */
+
+.simple-box {
+    color: white;
+    height: 60px;
+    padding: 8px 8px;
+    border-radius: 8px;
+}
+
+.null-box {
+    background-color: gainsboro;
+}
+
+.normal-box {
+    background-color: #ff00629a;
+}
+
+.simple-box-label {
+    font-size: x-small;
+}
+
+.simple-box-senval {
+    margin-top: 8px;
+    text-align: right;
+    font-size: medium;
+}
+
+.simple-box-senval-null {
+    margin-top: 15px;
+    text-align: right;
+    font-size: xx-small;
+}
+
+.simple-box-date {
+    text-align: right;
+    font-size: small;
+}

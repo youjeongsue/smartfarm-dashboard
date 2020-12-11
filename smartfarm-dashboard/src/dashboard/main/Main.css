@@ -1,0 +1,15 @@
+.sidebar {
+    float: left;
+    width: 150px;
+}
+
+.contents-wrapper {
+    float: left;
+    width: calc(100% - 150px);
+    height: calc(100vmax);
+    background-color: rgb(240, 240, 240);
+}
+
+.main-contents {
+    padding: 15px 15px;
+}

@@ -1,0 +1,12 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+smartfarm-dashboard/node_modules
+
+smartfarm-dashboard/npm-debug.log*
+smartfarm-dashboard/yarn-debug.log*
+smartfarm-dashboard/yarn-error.log*
+
+__pycache__
+
+kafka-keypair.pem

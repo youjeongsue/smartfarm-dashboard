@@ -1,0 +1,17 @@
+.envplot-wrapper {
+    background-color: white;
+    width: 400px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.envplot-plus {
+    width: 15px;
+    height: 15px;
+}
+
+.plus {
+    width: 15px;
+    height: 15px;
+}

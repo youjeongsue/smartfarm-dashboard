@@ -1,0 +1,37 @@
+.hour-output-wrapper {
+    margin-bottom: 10px;
+}
+
+.hour-output-now {
+    /* margin: 5px 5px; */
+    padding: 5px 5px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.output-predict {
+    margin-top: -15px;
+    color: red;
+    font-size: xx-large;
+}
+
+.hour-output-graph {
+    padding: 5px 5px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.feature-importance {
+    /* margin-left: 45px; */
+    padding: 5px 5px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.feature-importance p{
+    font-size: small;
+}
+
+.hour-box {
+    margin: 5px 7px;
+}
