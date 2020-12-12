@@ -18,7 +18,7 @@ const HourOutput = ({ data }) => {
             }).catch((e) => {
                 console.log(e);
             })
-        }, 1000);
+        }, 2000);
         return() => clearInterval(interval);
     }, [])
 
@@ -123,10 +123,10 @@ const HourOutput = ({ data }) => {
                 <div className='hour-output-now'>
                     <div>
                         <p>이번 주 예측 생산량</p>
-                        <p className='output-predict'>{reducedData['fruitsNumPredict'][reducedData['fruitsNumPredict'].length-1].toFixed(2)}</p>
+                        <p className='output-predict'>▲{reducedData['fruitsNumPredict'][reducedData['fruitsNumPredict'].length-1].toFixed(2)}</p>
                     </div>
                     <div>
-                        <p>현재 상태를 유지하세요</p>
+                        <p>{reducedData['onlyEnv'][reducedData['onlyEnv'].length-1]}</p>
                     </div>
                 </div>
             )

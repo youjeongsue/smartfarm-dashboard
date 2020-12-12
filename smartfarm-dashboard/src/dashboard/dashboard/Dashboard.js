@@ -18,7 +18,7 @@ const Dashboard = () => {
         }).catch((e) => {
           console.log(e);
         })
-      }, 1000);
+      }, 2000);
       
       return() => clearInterval(interval);
   }, []);

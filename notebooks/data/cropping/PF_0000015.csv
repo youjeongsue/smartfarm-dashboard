@@ -1,0 +1,4 @@
+,statusCode,statusMessage,fatrCode,facilityId,measDate,fldCode,sectCode,itemCode,senVal,ymd,cntCollect,num,totalRows,totalPage,currentPage
+0,00,NORMAL_CODE,CC01_2_L_C,PF_0000015_01,2015-12-02 00:00:00,FG,CR,080300,25,20151202,24,1,3.0,1,1
+1,,,CC01,PF_0000015_01,2015-12-02 00:00:00,FG,CR,080300,6.25,20151202,24,2,,,
+2,,,CC04,PF_0000015_01,2015-12-02 00:00:00,FG,CR,080300,37.5,20151202,24,3,,,
